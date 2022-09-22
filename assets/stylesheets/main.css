@@ -87,7 +87,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  vertical-align: baseline;
 }
 
 /*
@@ -115,11 +114,6 @@ body {
   font-style: normal;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .welcome {
   font-weight: 600;
   font-size: 20px;
@@ -137,7 +131,7 @@ header {
 .header-mobile {
   margin-top: 16px;
   height: 648px;
-  background-image: url(./assets/images/header_mobile_background.png);
+  background-image: url(/assets/images/header_mobile_background.png);
   background-size: 100% 648px;
   text-align: center;
 }
@@ -175,4 +169,208 @@ span {
   padding: 8px;
   border: 1px solid #dfe1e6;
   border-radius: 32px;
+}
+
+.recent-works-header {
+  padding-top: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.green-line {
+  display: block;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.recent-works {
+  width: 87.2%;
+  margin: auto;
+  margin-top: 62px;
+  margin-bottom: 68px;
+  display: grid;
+  grid-template-rows: repeat(6, 474px);
+  row-gap: 24px;
+}
+
+.recent-work {
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.multi-post {
+  margin-top: 250px;
+  height: 222px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.multi-post-header {
+  padding-top: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+}
+
+.multi-post-skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  column-gap: 2.14%;
+  list-style: none;
+}
+
+.multi-post-skill {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 8px 3.2%;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.work-button {
+  display: block;
+  margin: auto;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-me {
+  background: url(/assets/images/about_me_first_picture.svg) right -25px no-repeat, url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
+}
+
+.about-me-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.about-me-paragraph-mobile {
+  padding-top: 24px;
+  padding-left: 3.2%;
+  padding-right: 3.2%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.about-me-button {
+  display: block;
+  margin: auto;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-me-domain {
+  width: 87.2%;
+  margin: auto;
+  margin-top: 59px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-rows: repeat(3, 352px);
+  row-gap: 24px;
+}
+
+.about-me-languages {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.about-me-frameworks {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.about-me-skills {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.languages-icon,
+.frameworks-icon,
+.skills-icon {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 18px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.languages-header,
+.frameworks-header,
+.skills-header {
+  margin-top: 64px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.languages-list,
+.frameworks-list,
+.skills-list {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 8px;
+  row-gap: 8px;
+  list-style: none;
+}
+
+.language-element,
+.framework-element,
+.skill-element {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.work-button:hover,
+.about-me-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.work-button:active,
+.about-me-button:active {
+  background: #008552;
 }
