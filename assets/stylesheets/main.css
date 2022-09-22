@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+=============================================
+main-mobile css
+=============================================
+*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 54px;
+  padding-left: 6.4%;
+  color: #28352f;
+}
+
+.fa-bars {
+  position: absolute;
+  top: 57px;
+  right: 9.34%;
+}
+
+.header-mobile {
+  margin-top: 16px;
+  height: 648px;
+  background-image: url(./assets/images/header_mobile_background.png);
+  background-size: 100% 648px;
+  text-align: center;
+}
+
+.black-text-header {
+  padding-top: 64px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+span {
+  color: #36b37f;
+}
+
+.header-paragraph {
+  padding-top: 43px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.social-media-icons {
+  padding-top: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 19px;
+}
+
+.chevron {
+  margin-top: 53px;
+  padding: 8px;
+  border: 1px solid #dfe1e6;
+  border-radius: 32px;
+}
