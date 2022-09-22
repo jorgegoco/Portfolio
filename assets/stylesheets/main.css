@@ -252,6 +252,10 @@ span {
   cursor: pointer;
 }
 
+.about-me {
+  background: url(/assets/images/about_me_first_picture.svg) right -25px no-repeat, url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
+}
+
 .about-me-header {
   font-weight: 700;
   font-size: 40px;
@@ -286,7 +290,7 @@ span {
   cursor: pointer;
 }
 
-.about-me {
+.about-me-domain {
   width: 87.2%;
   margin: auto;
   margin-top: 59px;
@@ -359,18 +363,6 @@ span {
   padding: 12px;
   background: #fff;
   border-radius: 8px;
-}
-
-.about-me-first-picture {
-  position: absolute;
-  right: 0;
-  top: 3950px;
-}
-
-.about-me-second-picture {
-  position: absolute;
-  left: 0;
-  top: 4330px;
 }
 
 .work-button:hover,
