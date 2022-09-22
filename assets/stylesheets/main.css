@@ -115,6 +115,11 @@ body {
   font-style: normal;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .welcome {
   font-weight: 600;
   font-size: 20px;
@@ -132,7 +137,7 @@ body {
 .header-mobile {
   margin-top: 16px;
   height: 648px;
-  background-image: url(/assets/images/header_mobile_background.png);
+  background-image: url(./assets/images/header_mobile_background.png);
   background-size: 100% 648px;
   text-align: center;
 }
