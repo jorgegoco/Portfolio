@@ -249,7 +249,6 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .about-me {
@@ -288,7 +287,6 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .about-me-domain {
@@ -377,18 +375,6 @@ span {
   margin-bottom: 58px;
 }
 
-.work-button:hover,
-.about-me-button:hover,
-.form-buton:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.work-button:active,
-.about-me-button:active,
-.form-buton:active {
-  background: #008552;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -426,7 +412,7 @@ span {
   color: #091e42;
 }
 
-.form-buton {
+.form-button {
   padding: 12px;
   align-items: center;
   margin: 0 123px;
@@ -440,7 +426,8 @@ span {
   border: none;
 }
 
-.form-buton:hover {
-  cursor: pointer;
-  background: #091e42;
+.work-button:hover,
+.about-me-button:hover,
+.form-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
