@@ -110,7 +110,7 @@ main-mobile css
 */
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -249,11 +249,12 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .about-me {
-  background: url(/assets/images/about_me_first_picture.svg) right -25px no-repeat, url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
+  background:
+    url(/assets/images/about_me_first_picture.svg) right -25px no-repeat,
+    url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
 }
 
 .about-me-header {
@@ -287,7 +288,6 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .about-me-domain {
@@ -365,12 +365,70 @@ span {
   border-radius: 8px;
 }
 
-.work-button:hover,
-.about-me-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+.form-header {
+  padding-left: 6.4%;
+  padding-right: 6.4%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 58px;
 }
 
-.work-button:active,
-.about-me-button:active {
-  background: #008552;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-name,
+.form-email,
+.form-textarea {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.form-name,
+.form-email {
+  padding: 15px 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b778c;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.form-textarea {
+  padding: 12px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #091e42;
+}
+
+.form-button {
+  padding: 12px;
+  align-items: center;
+  margin: 0 123px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+}
+
+.work-button:hover,
+.about-me-button:hover,
+.form-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
