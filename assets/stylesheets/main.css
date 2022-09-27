@@ -365,6 +365,17 @@ span {
   border-radius: 8px;
 }
 
+.form-header {
+  padding-left: 6.4%;
+  padding-right: 6.4%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 58px;
+}
+
 .work-button:hover,
 .about-me-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
