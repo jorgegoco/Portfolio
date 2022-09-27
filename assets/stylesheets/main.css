@@ -252,7 +252,8 @@ span {
 }
 
 .about-me {
-  background: url(/assets/images/about_me_first_picture.svg) right -25px no-repeat,
+  background:
+    url(/assets/images/about_me_first_picture.svg) right -25px no-repeat,
     url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
 }
 
