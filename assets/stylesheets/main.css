@@ -549,11 +549,14 @@ footer {
     width: 684px;
   }
 
+  footer {
+    padding-top: 297px;
+  }
+
   hr {
     height: 1px;
     display: block;
-    background: #dfe1e6;;
-    margin-top: 297px;
+    background: #dfe1e6;
   }
 
   .icons-bottom {
@@ -571,7 +574,6 @@ footer {
   }
 
   footer {
-    background: url(/assets/images/contact_form_first_picture_desktop.svg) right top no-repeat,
-    url(/assets/images/contact_form_second_picture_desktop.svg) right bottom no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) left top no-repeat;
+    background: url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px no-repeat, url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
   }
 }
