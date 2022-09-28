@@ -24,12 +24,16 @@ body {
   right: 9.34%;
 }
 
-.header-mobile {
+.header {
   margin-top: 16px;
   height: 648px;
   background-image: url(/assets/images/header_mobile_background.png);
   background-size: 100% 648px;
   text-align: center;
+}
+
+.desktop-menu {
+  display: none;
 }
 
 .black-text-header {
@@ -44,12 +48,20 @@ span {
   color: #36b37f;
 }
 
+.black-text-header-desktop {
+  display: none;
+}
+
 .header-paragraph {
   padding-top: 43px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #172b4d;
+}
+
+.header-paragraph-desktop {
+  display: none;
 }
 
 .social-media-icons {
@@ -357,4 +369,73 @@ span {
 
 footer {
   background: url(/assets/images/contact_form_first_picture.svg) right top no-repeat;
+}
+
+@media (min-width: 768px) {
+
+  .mobile-menu,
+  .welcome {
+    display: none;
+  }
+
+  .header {
+    margin-top: 0;
+    height: 1036px;
+    background-size: 100% 1036px;
+    background-image: url(/assets/images/header_desktop_background.png);
+  }
+
+  .desktop-menu {
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .black-text-header {
+    display: none;
+  }
+
+  .black-text-header-desktop {
+    display: block;
+    padding-left: 21.5%;
+    padding-right: 21.5%;
+    padding-top: 186px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+  }
+
+  .header-paragraph {
+    display: none;
+  }
+
+  .header-paragraph-desktop {
+    display: block;
+    padding-left: 21.5%;
+    padding-right: 21.5%;
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #172b4d;
+  }
+
+  .icons-top {
+    padding-top: 32px;
+  }
+
+  .chevron {
+    margin-top: 84px;
+  }
 }
