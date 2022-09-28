@@ -332,3 +332,29 @@ span {
 .form-button:active {
   background: #008552;
 }
+
+.icons-bottom {
+  padding-top: 0;
+  padding-bottom: 17px;
+}
+
+.email-footer {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-bottom: 270px;
+}
+
+.black-line {
+  display: block;
+  margin: auto;
+  padding-top: 21px;
+  padding-bottom: 8px;
+}
+
+footer {
+  background: url(/assets/images/contact_form_first_picture.svg) right top no-repeat
+}
