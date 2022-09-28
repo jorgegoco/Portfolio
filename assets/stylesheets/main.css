@@ -353,7 +353,7 @@ span {
   background: #008552;
 }
 
-.greyline {
+hr {
   display: none;
 }
 
@@ -549,9 +549,29 @@ footer {
     width: 684px;
   }
 
-  .greyline {
+  hr {
+    height: 1px;
     display: block;
-    background: #dfe1e6;
+    background: #dfe1e6;;
     margin-top: 297px;
+  }
+
+  .icons-bottom {
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .email-footer {
+    display: none;
+  }
+
+  .black-line {
+    display: none;
+  }
+
+  footer {
+    background: url(/assets/images/contact_form_first_picture_desktop.svg) right top no-repeat,
+    url(/assets/images/contact_form_second_picture_desktop.svg) right bottom no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) left top no-repeat;
   }
 }
