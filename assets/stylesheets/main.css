@@ -1,113 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
 }
-
-/*
-  ========================================
-  Grid
-  ========================================
-*/
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/*
-=============================================
-main-mobile css
-=============================================
-*/
 
 body {
   font-family: "Inter", sans-serif;
@@ -249,12 +145,13 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .about-me {
   background:
-    url(/assets/images/about_me_first_picture.svg) right -25px no-repeat,
-    url(/assets/images/about_me_second_picture.svg) left 290px no-repeat;
+    url(/assets/images/about_me_first_picture.svg) right -28px no-repeat,
+    url(/assets/images/about_me_second_picture.svg) left 320px no-repeat;
 }
 
 .about-me-header {
@@ -288,6 +185,7 @@ span {
   padding: 12px;
   background: #36b37f;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .about-me-domain {
@@ -379,56 +277,58 @@ span {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-}
-
-.form-name,
-.form-email,
-.form-textarea {
-  margin-left: 24px;
-  margin-right: 24px;
+  align-items: center;
+  row-gap: 24px;
+  margin-bottom: 44px;
 }
 
 .form-name,
 .form-email {
-  padding: 15px 16px;
-  font-size: 15px;
+  width: 327px;
+  height: 48px;
   font-weight: 400;
+  font-size: 15px;
   line-height: 24px;
-  text-align: left;
   color: #6b778c;
+  background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  background: #fff;
+  padding-left: 16px;
 }
 
 .form-textarea {
-  padding: 12px;
+  width: 327px;
+  height: 114px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: #091e42;
+  padding-left: 12px;
 }
 
 .form-button {
-  padding: 12px;
-  align-items: center;
-  margin: 0 123px;
-  font-size: 17px;
   font-weight: 500;
+  font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+  padding: 12px;
   background: #36b37f;
   border-radius: 4px;
-  border: none;
+  cursor: pointer;
 }
 
 .work-button:hover,
 .about-me-button:hover,
 .form-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.work-button:active,
+.about-me-button:active,
+.form-button:active {
+  background: #008552;
 }
