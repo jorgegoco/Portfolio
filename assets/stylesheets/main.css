@@ -48,7 +48,7 @@ body {
 }
 
 @keyframes main-mobile-header {
-  50%  {font-size: 50px;}
+  50% { font-size: 50px; }
 }
 
 span {
@@ -443,9 +443,9 @@ footer {
   }
 
   @keyframes main-mobile-desktop {
-    50%  {font-size: 58px;}
+    50% { font-size: 58px; }
   }
-  
+
   .header-paragraph {
     display: none;
   }
