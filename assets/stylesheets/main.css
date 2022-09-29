@@ -398,7 +398,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-
   .mobile-menu,
   .welcome {
     display: none;
@@ -615,7 +614,6 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
-
   .form-name,
   .form-email,
   .form-textarea {
@@ -624,7 +622,6 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 936px) {
-
   .selenium,
   .terminal {
     display: none;
