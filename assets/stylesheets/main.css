@@ -162,6 +162,7 @@ span {
   background: #36b37f;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 1s;
 }
 
 .about-me {
@@ -206,6 +207,7 @@ span {
   background: #36b37f;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 1s;
 }
 
 .about-me-domain {
@@ -339,12 +341,14 @@ span {
   background: #36b37f;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 1s;
 }
 
 .work-button:hover,
 .about-me-button:hover,
 .form-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transform: scale(1.2);
 }
 
 .work-button:active,
