@@ -48,7 +48,9 @@ body {
 }
 
 @keyframes main-mobile-header {
-  50% { font-size: 50px; }
+  50% {
+    font-size: 50px;
+  }
 }
 
 span {
@@ -443,7 +445,9 @@ footer {
   }
 
   @keyframes main-mobile-desktop {
-    50% { font-size: 58px; }
+    50% {
+      font-size: 58px;
+    }
   }
 
   .header-paragraph {
@@ -520,6 +524,8 @@ footer {
 
   .about-me-paragraph-desktop {
     display: block;
+    width: 50%;
+    margin: auto;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 24px;
@@ -555,6 +561,7 @@ footer {
   }
 
   .form {
+    width: 52%;
     display: inline-flex;
     vertical-align: top;
     flex-direction: column;
@@ -567,7 +574,7 @@ footer {
   .form-name,
   .form-email,
   .form-textarea {
-    width: 684px;
+    width: 91%;
   }
 
   footer {
@@ -596,7 +603,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 880px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   .recent-works {
     width: 95%;
   }
@@ -607,16 +614,10 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
-  .about-me {
-    background:
-      url(/assets/images/about_me_first_picture_desktop.svg) right 50px no-repeat,
-      url(/assets/images/about_me_second_picture_desktop.svg) left 160px no-repeat;
-  }
-
   .form-name,
   .form-email,
   .form-textarea {
-    width: 400px;
+    width: 100%;
   }
 }
 
