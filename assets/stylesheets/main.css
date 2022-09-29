@@ -545,12 +545,15 @@ footer {
     margin-bottom: 44px;
   }
 
-  .form-name, .form-email, .form-textarea {
+  .form-name,
+  .form-email,
+  .form-textarea {
     width: 684px;
   }
 
   footer {
     padding-top: 297px;
+    background: url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px no-repeat, url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
   }
 
   hr {
@@ -572,10 +575,6 @@ footer {
   .black-line {
     display: none;
   }
-
-  footer {
-    background: url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px no-repeat, url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 880px) {
@@ -585,7 +584,7 @@ footer {
 
   .about-me-domain {
     width: 90%;
-  }  
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
@@ -595,14 +594,16 @@ footer {
       url(/assets/images/about_me_second_picture_desktop.svg) left 160px no-repeat;
   }
 
-  .form-name, .form-email, .form-textarea {
+  .form-name,
+  .form-email,
+  .form-textarea {
     width: 400px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 936px) {
-
-  .selenium, .terminal {
+  .selenium,
+  .terminal {
     display: none;
   }
-} 
+}
