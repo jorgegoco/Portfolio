@@ -99,7 +99,7 @@ span {
 }
 
 .recent-works {
-  width: 87.2%;
+  width: 86.13%;
   margin: auto;
   margin-top: 62px;
   margin-bottom: 68px;
@@ -304,7 +304,7 @@ span {
 
 .form-name,
 .form-email {
-  width: 327px;
+  width: 91.44%;
   height: 48px;
   font-weight: 400;
   font-size: 15px;
@@ -317,7 +317,7 @@ span {
 }
 
 .form-textarea {
-  width: 327px;
+  width: 91.44%;
   height: 114px;
   font-weight: 400;
   font-size: 15px;
@@ -469,7 +469,7 @@ footer {
   }
 
   .recent-works {
-    width: 98.88%;
+    width: 81.25%;
     margin: auto;
     margin-top: 52px;
     margin-bottom: 192px;
@@ -577,3 +577,32 @@ footer {
     background: url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px no-repeat, url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
   }
 }
+
+@media (min-width: 768px) and (max-width: 880px) {
+  .recent-works {
+    width: 95%;
+  }
+
+  .about-me-domain {
+    width: 90%;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .about-me {
+    background:
+      url(/assets/images/about_me_first_picture_desktop.svg) right 50px no-repeat,
+      url(/assets/images/about_me_second_picture_desktop.svg) left 160px no-repeat;
+  }
+
+  .form-name, .form-email, .form-textarea {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 936px) {
+
+  .selenium, .terminal {
+    display: none;
+  }
+} 
