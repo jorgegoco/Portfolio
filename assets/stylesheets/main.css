@@ -504,7 +504,7 @@ footer {
   }
 
   .multi-post-header {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #172b4d;
   }
 
@@ -579,7 +579,12 @@ footer {
 
   footer {
     padding-top: 297px;
-    background: url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px no-repeat, url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px no-repeat, url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
+    background:
+      url(/assets/images/contact_form_first_picture_desktop.svg) 0 -35px
+      no-repeat,
+      url(/assets/images/contact_form_second_picture_desktop.svg) 300px 100px
+      no-repeat,
+      url(/assets/images/contact_form_third_picture_desktop.svg) right -200px no-repeat;
   }
 
   hr {
