@@ -8,7 +8,7 @@ HTML and CSS
 
 ## Live Demo 
 
-N/A
+[Live Demo Link](https://jorgegoco.github.io/Portfolio/)
 
 ## Getting Started
 
