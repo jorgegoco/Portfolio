@@ -54,7 +54,7 @@ body {
 }
 
 span {
-  color: #36b37f;
+  color: #1d6245;
 }
 
 .black-text-header-desktop {
@@ -168,7 +168,7 @@ span {
   letter-spacing: 0.03em;
   color: #fff;
   padding: 12px;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   cursor: pointer;
   transition: transform 1s;
@@ -213,7 +213,7 @@ span {
   letter-spacing: 0.03em;
   color: #fff;
   padding: 12px;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   cursor: pointer;
   transition: transform 1s;
@@ -288,7 +288,7 @@ span {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #1d6346;
   padding: 12px;
   background: #fff;
   border-radius: 8px;
@@ -347,7 +347,7 @@ span {
   letter-spacing: 0.03em;
   color: #fff;
   padding: 12px;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   cursor: pointer;
   transition: transform 1s;
