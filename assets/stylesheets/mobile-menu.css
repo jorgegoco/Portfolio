@@ -1,0 +1,48 @@
+#total-menu-mobile {
+  width: 100vw;
+  height: 100vh;
+  background: #f7f7f9;
+}
+
+#menu-mobile {
+  padding-bottom: 435px;
+  padding-top: 1px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: #fff;
+}
+
+#close-button {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 10.13%;
+  top: 62px;
+}
+
+.contain-menu-link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 108px;
+  margin-left: 7.47%;
+  gap: 40px;
+}
+
+.menu-link {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  text-decoration-line: none;
+}
+
+.menu-black-line {
+  display: block;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 9px;
+  margin-top: 40px;
+}
