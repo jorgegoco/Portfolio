@@ -13,6 +13,7 @@
 }
 
 #close-button {
+  cursor: pointer;
   position: absolute;
   width: 14px;
   height: 14px;

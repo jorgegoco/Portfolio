@@ -19,6 +19,7 @@ body {
 }
 
 .fa-bars {
+  cursor: pointer;
   position: absolute;
   top: 57px;
   right: 9.34%;
