@@ -1,3 +1,13 @@
+function showWork() {
+  document.querySelector('.main-portfolio').style.display = 'none';
+  document.querySelector('#total-detail-works').style.display = 'block';
+}
+
+function hideWork() {
+  document.querySelector('.main-portfolio').style.display = 'block';
+  document.querySelector('#total-detail-works').style.display = 'none';
+}
+
 let section = document.createElement('div');
 section.id = 'total-detail-works';
 let div = document.createElement('div');
@@ -130,6 +140,12 @@ let p1_text = document.createTextNode('Lorem Ipsum is simply dummy text of the p
 p1.appendChild(p1_text);
 div2.appendChild(p1);
 section.appendChild(div2);
+let body = document.querySelector('body');
+body.appendChild(section);
+document.querySelector('#total-detail-works').style.display = 'none';
+document.querySelector('.work-button').addEventListener('click', showWork);
+document.querySelector('.main-image-mobile').addEventListener('click', hideWork);
+document.querySelector('#detail-desktop-close-button').addEventListener('click', hideWork);
 
 
 
