@@ -89,6 +89,16 @@ p {
   width: 158px;
 }
 
+.live-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.source-icon {
+  width: 22px;
+  height: 24px;
+}
+
 .live:hover,
 .source:hover {
   box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
@@ -110,7 +120,7 @@ p {
     width: 63.889%;
     margin: auto;
     margin-top: 122px;
-    margin-bottom: 785px;
+    margin-bottom: 122px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 8px;
