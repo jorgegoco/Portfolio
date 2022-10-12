@@ -39,7 +39,7 @@
   column-gap: 8px;
 }
 
-li {
+.toolkit-list {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
@@ -50,7 +50,7 @@ li {
   color: #3a4a42;
 }
 
-p {
+.detail-description {
   margin-top: 12px;
   margin-left: 4.665%;
   margin-right: 4.665%;
@@ -193,13 +193,13 @@ p {
     column-gap: 8px;
   }
   
-  li {
+  .toolkit-list {
     background: #ebecf0;;
     border-radius: 8px;
     color: #344563;
   }
 
-  p {
+  .detail-description {
     margin-top: 36px;
     margin-left: 2.826%;
     margin-right: 2.826%;
