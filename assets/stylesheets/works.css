@@ -101,7 +101,7 @@
 
 .live:hover,
 .source:hover {
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .live:active,
@@ -110,7 +110,6 @@
 }
 
 @media (min-width: 768px) {
-
   .detail-mobile {
     display: none;
   }
@@ -127,15 +126,15 @@
   }
 
   #detail-desktop-close-button {
-  position: absolute;
-  right: 20.69%;
-  top: 150px;
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  background: #ebecf0;
-  border-radius: 8px;
-  cursor: pointer;
+    position: absolute;
+    right: 20.69%;
+    top: 150px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: #ebecf0;
+    border-radius: 8px;
+    cursor: pointer;
   }
 
   .main-image-desktop {
@@ -192,9 +191,9 @@
     row-gap: 8px;
     column-gap: 8px;
   }
-  
+
   .toolkit-list {
-    background: #ebecf0;;
+    background: #ebecf0;
     border-radius: 8px;
     color: #344563;
   }
