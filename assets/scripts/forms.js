@@ -1,10 +1,10 @@
-const re = /[A-Z]/;
+const capitalLetter = /[A-Z]/;
 const messageEmail = 'Email: Invalid characters. Capital letters not allowed';
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const emailValidation = re.test(form.elements.email.value);
+  const emailValidation = capitalLetter.test(form.elements.email.value);
   if (!emailValidation) {
     form.submit();
   } else if (form.lastElementChild.getAttribute('class') !== 'form-button') {
