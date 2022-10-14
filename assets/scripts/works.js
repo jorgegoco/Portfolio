@@ -1,6 +1,5 @@
 const projects = [
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project one',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -11,7 +10,6 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project two',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -22,7 +20,6 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project three',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -33,7 +30,6 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project four',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -44,7 +40,6 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project five',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -55,7 +50,6 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
-    // name: 'Multi-Post Stories Gain+Glory',
     name: 'Project six',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
