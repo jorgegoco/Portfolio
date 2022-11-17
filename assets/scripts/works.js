@@ -1,8 +1,8 @@
 const projects = [
   {
-    name: 'Project one',
+    name: 'Conference page',
     img_desktop: './assets/images/nomads_desktop.png',
-    img_mobile: './assets/images/nomads_desktop.png',
+    img_mobile: './assets/images/nomads_mobile.png',
     description: 'This is a project description of Project one ............................. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     liveLink: 'https://jorgegoco.github.io/Capstone1/',
     liveSource: 'https://github.com/jorgegoco/Capstone1',
