@@ -1,5 +1,6 @@
 const projects = [
   {
+    projectAvailability: true,
     name: 'Conference page',
     img_desktop: './assets/images/nomads_desktop.png',
     img_mobile: './assets/images/nomads_mobile.png',
@@ -10,6 +11,7 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
+    projectAvailability: false,
     name: 'Project two',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -20,6 +22,7 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
+    projectAvailability: false,
     name: 'Project three',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -30,6 +33,7 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
+    projectAvailability: false,
     name: 'Project four',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -40,6 +44,7 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
+    projectAvailability: false,
     name: 'Project five',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -50,6 +55,7 @@ const projects = [
     techstack_mobile: ['Ruby on rails', 'CSS', 'Javascript'],
   },
   {
+    projectAvailability: false,
     name: 'Project six',
     img_desktop: './assets/images/desktop-detail-image.png',
     img_mobile: './assets/images/mobile-detail-image.png',
@@ -66,6 +72,9 @@ for (let i = 0; i < projects.length; i += 1) {
   const recentWorks = document.querySelector('.recent-works');
   const recentWork = document.createElement('div');
   recentWork.className = 'recent-work';
+  if (projects[i].projectAvailability) {
+    recentWork.classList.add(`imageProject${i}`);
+  }
   const multiPost = document.createElement('div');
   multiPost.className = 'multi-post';
   const multiHeader = document.createElement('h3');
