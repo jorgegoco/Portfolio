@@ -113,12 +113,17 @@ span {
   margin: auto;
   margin-top: 62px;
   margin-bottom: 68px;
-  display: grid;
-  grid-template-rows: repeat(6, 474px);
-  row-gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
 }
 
 .recent-work {
+  height: 474px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -505,15 +510,13 @@ footer {
   }
 
   .recent-works {
-    width: 81.25%;
     margin: auto;
     margin-top: 52px;
     margin-bottom: 192px;
-    display: grid;
-    grid-template-rows: repeat(2, 474px);
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 32px;
-    column-gap: 1.67%;
+  }
+
+  .recent-work {
+    width: 30%;
   }
 
   .imageProject0 {
