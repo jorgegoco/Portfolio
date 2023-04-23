@@ -242,24 +242,38 @@ span {
   margin: auto;
   margin-top: 59px;
   margin-bottom: 60px;
-  display: grid;
+  /* display: grid;
   grid-template-rows: repeat(3, 352px);
-  row-gap: 24px;
+  row-gap: 24px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
 }
 
 .about-me-languages {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
 .about-me-frameworks {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
 .about-me-skills {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
@@ -564,10 +578,18 @@ footer {
     width: 81.25%;
     margin: auto;
     margin-top: 52px;
-    display: grid;
-    grid-template-rows: repeat(1, 352px);
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.67%;
+  }
+
+  .about-me-languages {
+    width: 30%;
+  }
+  
+  .about-me-frameworks {
+    width: 30%;
+  }
+  
+  .about-me-skills {
+    width: 30%;
   }
 
   .form-header {
