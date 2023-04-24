@@ -82,6 +82,14 @@ span {
   column-gap: 19px;
 }
 
+section a {
+  transition: transform 0.5s;
+}
+
+section a:hover {
+  transform: scale(1.7);
+}
+
 .chevron {
   margin-top: 53px;
   padding: 8px;
