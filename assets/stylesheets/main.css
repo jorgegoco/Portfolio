@@ -82,6 +82,14 @@ span {
   column-gap: 19px;
 }
 
+section a {
+  transition: transform 0.5s;
+}
+
+section a:hover {
+  transform: scale(1.7);
+}
+
 .chevron {
   margin-top: 53px;
   padding: 8px;
@@ -113,12 +121,17 @@ span {
   margin: auto;
   margin-top: 62px;
   margin-bottom: 68px;
-  display: grid;
-  grid-template-rows: repeat(6, 474px);
-  row-gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
 }
 
 .recent-work {
+  height: 474px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -237,24 +250,35 @@ span {
   margin: auto;
   margin-top: 59px;
   margin-bottom: 60px;
-  display: grid;
-  grid-template-rows: repeat(3, 352px);
-  row-gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
 }
 
 .about-me-languages {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
 .about-me-frameworks {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
 .about-me-skills {
+  height: 352px;
+  width: 60%;
+  min-width: 300px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
@@ -369,8 +393,9 @@ span {
 .work-button:hover,
 .about-me-button:hover,
 .form-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  color: #000;
+  box-shadow: 0 0 10px 10px rgba(12, 73, 48, 0.24);
+  background: white;
+  color: #1d6346;
   transform: scale(1.2);
 }
 
@@ -505,15 +530,13 @@ footer {
   }
 
   .recent-works {
-    width: 81.25%;
     margin: auto;
     margin-top: 52px;
     margin-bottom: 192px;
-    display: grid;
-    grid-template-rows: repeat(2, 474px);
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 32px;
-    column-gap: 1.67%;
+  }
+
+  .recent-work {
+    width: 30%;
   }
 
   .imageProject0 {
@@ -561,10 +584,18 @@ footer {
     width: 81.25%;
     margin: auto;
     margin-top: 52px;
-    display: grid;
-    grid-template-rows: repeat(1, 352px);
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1.67%;
+  }
+
+  .about-me-languages {
+    width: 30%;
+  }
+
+  .about-me-frameworks {
+    width: 30%;
+  }
+
+  .about-me-skills {
+    width: 30%;
   }
 
   .form-header {
@@ -644,12 +675,5 @@ footer {
   .form-email,
   .form-textarea {
     width: 100%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 936px) {
-  .selenium,
-  .terminal {
-    display: none;
   }
 }
