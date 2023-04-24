@@ -242,9 +242,6 @@ span {
   margin: auto;
   margin-top: 59px;
   margin-bottom: 60px;
-  /* display: grid;
-  grid-template-rows: repeat(3, 352px);
-  row-gap: 24px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
