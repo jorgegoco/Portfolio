@@ -385,8 +385,9 @@ span {
 .work-button:hover,
 .about-me-button:hover,
 .form-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  color: #000;
+  box-shadow: 0 0 10px 10px rgba(12, 73, 48, 0.24);
+  background: white;
+  color: #1d6346;
   transform: scale(1.2);
 }
 
@@ -666,12 +667,5 @@ footer {
   .form-email,
   .form-textarea {
     width: 100%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 936px) {
-  .selenium,
-  .terminal {
-    display: none;
   }
 }
