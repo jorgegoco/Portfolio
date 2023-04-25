@@ -10,8 +10,16 @@ body {
   font-style: normal;
 }
 
+section a {
+  transition: transform 0.5s;
+}
+
 nav a {
   transition: transform 0.5s;
+}
+
+section a:hover {
+  transform: scale(1.7);
 }
 
 nav a:hover {
@@ -88,14 +96,6 @@ span {
   justify-content: center;
   align-items: center;
   column-gap: 19px;
-}
-
-section a {
-  transition: transform 0.5s;
-}
-
-section a:hover {
-  transform: scale(1.7);
 }
 
 .chevron {
