@@ -10,6 +10,22 @@ body {
   font-style: normal;
 }
 
+section a {
+  transition: transform 0.5s;
+}
+
+nav a {
+  transition: transform 0.5s;
+}
+
+section a:hover {
+  transform: scale(1.7);
+}
+
+nav a:hover {
+  transform: scale(1.7);
+}
+
 .welcome {
   font-weight: 600;
   font-size: 20px;
@@ -82,14 +98,6 @@ span {
   column-gap: 19px;
 }
 
-section a {
-  transition: transform 0.5s;
-}
-
-section a:hover {
-  transform: scale(1.7);
-}
-
 .chevron {
   margin-top: 53px;
   padding: 8px;
@@ -145,6 +153,12 @@ section a:hover {
 
 .imageProject1 {
   background-image: url("../images/budget_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.imageProject2 {
+  background-image: url("../images/todo_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -540,11 +554,15 @@ footer {
   }
 
   .imageProject0 {
-    background-image: url("../images/nomads_desktop.png");
+    background-image: url("../images/nomads_mobile.png");
   }
 
   .imageProject1 {
     background-image: url("../images/budget_mobile.png");
+  }
+
+  .imageProject2 {
+    background-image: url("../images/todo_mobile.png");
   }
 
   .multi-post-header {
