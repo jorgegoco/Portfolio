@@ -157,6 +157,12 @@ section a:hover {
   background-size: 100% 100%;
 }
 
+.imageProject2 {
+  background-image: url("../images/todo_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .multi-post {
   margin-top: 250px;
   height: 222px;
@@ -548,11 +554,15 @@ footer {
   }
 
   .imageProject0 {
-    background-image: url("../images/nomads_desktop.png");
+    background-image: url("../images/nomads_mobile.png");
   }
 
   .imageProject1 {
     background-image: url("../images/budget_mobile.png");
+  }
+
+  .imageProject2 {
+    background-image: url("../images/todo_mobile.png");
   }
 
   .multi-post-header {

@@ -24,8 +24,8 @@ const projects = [
   {
     projectAvailability: true,
     name: "Today's To Do",
-    img_desktop: './assets/images/desktop-detail-image.png',
-    img_mobile: './assets/images/mobile-detail-image.png',
+    img_desktop: './assets/images/todo_desktop.png',
+    img_mobile: './assets/images/todo_mobile.png',
     description: 'ToDoList is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     liveLink: 'https://jorgegoco.github.io/ToDoList/',
     liveSource: 'https://github.com/jorgegoco/ToDoList',
