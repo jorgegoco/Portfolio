@@ -163,6 +163,12 @@ span {
   background-size: 100% 100%;
 }
 
+.imageProject3 {
+  background-image: url("../images/math_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .multi-post {
   margin-top: 250px;
   height: 222px;
@@ -563,6 +569,10 @@ footer {
 
   .imageProject2 {
     background-image: url("../images/todo_mobile.png");
+  }
+
+  .imageProject3 {
+    background-image: url("../images/math_mobile.png");
   }
 
   .multi-post-header {
