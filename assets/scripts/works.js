@@ -50,14 +50,14 @@ const projects = [
     techstack: ['JavaScript', 'CSS', 'HTML', 'Webpack'],
   },
   {
-    projectAvailability: false,
-    name: 'Project six',
-    img_desktop: './assets/images/desktop-detail-image.png',
-    img_mobile: './assets/images/mobile-detail-image.png',
-    description: 'This is a project description of Project six ............................. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    liveLink: 'https://jorgegoco.github.io/Portfolio/',
-    liveSource: 'https://github.com/jorgegoco/Portfolio',
-    techstack: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    projectAvailability: true,
+    name: 'Weather App',
+    img_desktop: './assets/images/weather_desktop2.png',
+    img_mobile: './assets/images/weather_mobile.png',
+    description: '"react-weather-app" is an application that will allow users to check air quality index levels from the nine closest stations to a changeable origin location. Built with React and Redux.',
+    liveLink: 'https://jorgegoco.github.io/react-weather-app/',
+    liveSource: 'https://github.com/jorgegoco/react-weather-app',
+    techstack: ['JavaScript', 'CSS', 'HTML', 'React'],
   },
 
 ];

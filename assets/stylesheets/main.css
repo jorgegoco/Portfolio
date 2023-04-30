@@ -175,6 +175,12 @@ span {
   background-size: 100% 100%;
 }
 
+.imageProject5 {
+  background-image: url("../images/weather_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .multi-post {
   margin-top: 250px;
   height: 222px;
@@ -583,6 +589,10 @@ footer {
 
   .imageProject4 {
     background-image: url("../images/leaderboard_mobile.png");
+  }
+
+  .imageProject5 {
+    background-image: url("../images/weather_mobile.png");
   }
 
   .multi-post-header {
