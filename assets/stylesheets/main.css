@@ -84,6 +84,8 @@ span {
   font-size: 20px;
   line-height: 28px;
   color: #172b4d;
+  width: 80%;
+  margin: auto;
 }
 
 .header-paragraph-desktop {
@@ -96,13 +98,6 @@ span {
   justify-content: center;
   align-items: center;
   column-gap: 19px;
-}
-
-.chevron {
-  margin-top: 53px;
-  padding: 8px;
-  border: 1px solid #dfe1e6;
-  border-radius: 32px;
 }
 
 .recent-works-header {
@@ -539,17 +534,13 @@ footer {
     padding-top: 32px;
   }
 
-  .chevron {
-    margin-top: 84px;
-  }
-
   .recent-works-header {
     display: none;
   }
 
   .recent-works-header-desktop {
     display: block;
-    padding-top: 103px;
+    padding-top: 60px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
