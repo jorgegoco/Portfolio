@@ -78,26 +78,13 @@ for (let i = 0; i < projects.length; i += 1) {
   multiPost.appendChild(multiHeader);
   const multiUl = document.createElement('ul');
   multiUl.className = 'multi-post-skills';
-  const multiLi1 = document.createElement('li');
-  multiLi1.className = 'multi-post-skill';
-  const multiLi1Text = document.createTextNode('Ruby on Rails');
-  multiLi1.appendChild(multiLi1Text);
-  multiUl.appendChild(multiLi1);
-  const multiLi2 = document.createElement('li');
-  multiLi2.className = 'multi-post-skill';
-  const multiLi2Text = document.createTextNode('css');
-  multiLi2.appendChild(multiLi2Text);
-  multiUl.appendChild(multiLi2);
-  const multiLi3 = document.createElement('li');
-  multiLi3.className = 'multi-post-skill';
-  const multiLi3Text = document.createTextNode('JavScript');
-  multiLi3.appendChild(multiLi3Text);
-  multiUl.appendChild(multiLi3);
-  const multiLi4 = document.createElement('li');
-  multiLi4.className = 'multi-post-skill';
-  const multiLi4Text = document.createTextNode('html');
-  multiLi4.appendChild(multiLi4Text);
-  multiUl.appendChild(multiLi4);
+  for (let j = 0; j < projects[i].techstack.length; j += 1) {
+    const multiLi = document.createElement('li');
+    multiLi.className = 'multi-post-skill';
+    const multiLiText = document.createTextNode(`${projects[i].techstack[j]}`);
+    multiLi.appendChild(multiLiText);
+    multiUl.appendChild(multiLi);
+  }
   multiPost.appendChild(multiUl);
   const multiButton = document.createElement('button');
   multiButton.className = 'work-button';
@@ -227,6 +214,13 @@ workLinks.forEach((workLink) => {
     wdiv2.appendChild(wdiv3);
     const wul1 = document.createElement('ul');
     wul1.className = 'toolkit';
+    // for (let i = 0; i < projectToolkit.length; i += 1) {
+    //   const wli = document.createElement('li');
+    //   wli.className = 'toolkit-list';
+    //   const wliText = document.createTextNode(projectToolkit[i]);
+    //   wli.appendChild(wliText);
+    //   wul1.appendChild(wli);
+    // }
     const wli3 = document.createElement('li');
     wli3.className = 'toolkit-list';
     const wli3Text = document.createTextNode('Codekit');
