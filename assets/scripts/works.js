@@ -4,17 +4,17 @@ const projects = [
     name: 'Conference page',
     img_desktop: './assets/images/nomads_desktop.png',
     img_mobile: './assets/images/nomads_mobile.png',
-    description: 'Capstone1 is a Conference page website built with basic HTML, CSS, and JavaScript.',
+    description: 'This is a style guided project where I personalized the content about a conference website.',
     liveLink: 'https://jorgegoco.github.io/Capstone1/',
     liveSource: 'https://github.com/jorgegoco/Capstone1',
-    techstack: ['JavaScript', 'CSS', 'HTML'],
+    techstack: ['JavaScript', 'CSS3', 'HTML5'],
   },
   {
     projectAvailability: true,
     name: 'Budget App',
     img_desktop: './assets/images/budget_mobile.png',
     img_mobile: './assets/images/budget_mobile.png',
-    description: 'The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    description: 'The Budget App is a mobile web app that lets you manage your budget by categorizing and tracking your transactions.',
     liveLink: 'https://budget-app-xplx.onrender.com/',
     liveSource: 'https://github.com/jorgegoco/budget-app-ror',
     techstack: ['Ruby on rails', 'PostgreSQL'],
@@ -24,10 +24,10 @@ const projects = [
     name: "Today's To Do",
     img_desktop: './assets/images/todo_desktop.png',
     img_mobile: './assets/images/todo_mobile.png',
-    description: 'ToDoList is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+    description: 'To-Do-list is a project where you can manage your daily tasks in a very simple way. CRUD functionality and user-friendly.',
     liveLink: 'https://jorgegoco.github.io/ToDoList/',
     liveSource: 'https://github.com/jorgegoco/ToDoList',
-    techstack: ['JavaScript', 'CSS', 'HTML', 'Webpack'],
+    techstack: ['JavaScript', 'CSS3', 'HTML5', 'Webpack'],
   },
   {
     projectAvailability: true,
@@ -37,7 +37,7 @@ const projects = [
     description: 'Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, or read a random math related quote.',
     liveLink: 'https://jorgegoco.github.io/math-magicians/',
     liveSource: 'https://github.com/jorgegoco/math-magicians',
-    techstack: ['JavaScript', 'CSS', 'HTML', 'React'],
+    techstack: ['JavaScript', 'CSS3', 'HTML5', 'React JS'],
   },
   {
     projectAvailability: true,
@@ -47,17 +47,17 @@ const projects = [
     description: 'Leaderboard is a website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     liveLink: 'https://jorgegoco.github.io/Leaderboard/',
     liveSource: 'https://github.com/jorgegoco/Leaderboard',
-    techstack: ['JavaScript', 'CSS', 'HTML', 'Webpack'],
+    techstack: ['JavaScript', 'CSS3', 'HTML5', 'Webpack'],
   },
   {
     projectAvailability: true,
     name: 'Weather App',
     img_desktop: './assets/images/weather_desktop2.png',
     img_mobile: './assets/images/weather_mobile.png',
-    description: '"react-weather-app" is an application that will allow users to check air quality index levels from the nine closest stations to a changeable origin location. Built with React and Redux.',
+    description: 'A Weather App that pulls from the OpenWeatherMap API to allow users to check air quality index levels from the nine closest weather stations from a chosen origin location.',
     liveLink: 'https://jorgegoco.github.io/react-weather-app/',
     liveSource: 'https://github.com/jorgegoco/react-weather-app',
-    techstack: ['JavaScript', 'CSS', 'HTML', 'React'],
+    techstack: ['JavaScript', 'CSS3', 'HTML5', 'React JS'],
   },
 
 ];
@@ -78,26 +78,13 @@ for (let i = 0; i < projects.length; i += 1) {
   multiPost.appendChild(multiHeader);
   const multiUl = document.createElement('ul');
   multiUl.className = 'multi-post-skills';
-  const multiLi1 = document.createElement('li');
-  multiLi1.className = 'multi-post-skill';
-  const multiLi1Text = document.createTextNode('Ruby on Rails');
-  multiLi1.appendChild(multiLi1Text);
-  multiUl.appendChild(multiLi1);
-  const multiLi2 = document.createElement('li');
-  multiLi2.className = 'multi-post-skill';
-  const multiLi2Text = document.createTextNode('css');
-  multiLi2.appendChild(multiLi2Text);
-  multiUl.appendChild(multiLi2);
-  const multiLi3 = document.createElement('li');
-  multiLi3.className = 'multi-post-skill';
-  const multiLi3Text = document.createTextNode('JavScript');
-  multiLi3.appendChild(multiLi3Text);
-  multiUl.appendChild(multiLi3);
-  const multiLi4 = document.createElement('li');
-  multiLi4.className = 'multi-post-skill';
-  const multiLi4Text = document.createTextNode('html');
-  multiLi4.appendChild(multiLi4Text);
-  multiUl.appendChild(multiLi4);
+  for (let j = 0; j < projects[i].techstack.length; j += 1) {
+    const multiLi = document.createElement('li');
+    multiLi.className = 'multi-post-skill';
+    const multiLiText = document.createTextNode(`${projects[i].techstack[j]}`);
+    multiLi.appendChild(multiLiText);
+    multiUl.appendChild(multiLi);
+  }
   multiPost.appendChild(multiUl);
   const multiButton = document.createElement('button');
   multiButton.className = 'work-button';
@@ -128,26 +115,18 @@ workLinks.forEach((workLink) => {
     wdiv.appendChild(wimg);
     const wh2 = document.createElement('h2');
     wh2.className = 'detail-title-mobile';
-    const wh2Text = document.createTextNode('Keeping track of hundreds of components');
+    const wh2Text = document.createTextNode(projects[buttonIndex].name);
     wh2.appendChild(wh2Text);
     wdiv.appendChild(wh2);
     const wul = document.createElement('ul');
     wul.className = 'toolkit';
-    const wli = document.createElement('li');
-    wli.className = 'toolkit-list';
-    const wliText = document.createTextNode('Ruby on rails');
-    wli.appendChild(wliText);
-    wul.appendChild(wli);
-    const wli1 = document.createElement('li');
-    wli1.className = 'toolkit-list';
-    const wli1Text = document.createTextNode('css');
-    wli1.appendChild(wli1Text);
-    wul.appendChild(wli1);
-    const wli2 = document.createElement('li');
-    wli2.className = 'toolkit-list';
-    const wli2Text = document.createTextNode('JavaScript');
-    wli2.appendChild(wli2Text);
-    wul.appendChild(wli2);
+    for (let l = 0; l < projects[buttonIndex].techstack.length; l += 1) {
+      const wli = document.createElement('li');
+      wli.className = 'toolkit-list';
+      const wliText = document.createTextNode(projects[buttonIndex].techstack[l]);
+      wli.appendChild(wliText);
+      wul.appendChild(wli);
+    }
     wdiv.appendChild(wul);
     const wp = document.createElement('p');
     wp.className = 'detail-description';
@@ -196,7 +175,7 @@ workLinks.forEach((workLink) => {
     wdiv3.className = 'detail-header-desktop';
     const wh22 = document.createElement('h2');
     wh22.className = 'detail-title-desktop';
-    const wh22Text = document.createTextNode('Keeping track of hundreds of components');
+    const wh22Text = document.createTextNode(projects[buttonIndex].name);
     wh22.appendChild(wh22Text);
     wdiv3.appendChild(wh22);
     const wdiv4 = document.createElement('div');
@@ -227,36 +206,13 @@ workLinks.forEach((workLink) => {
     wdiv2.appendChild(wdiv3);
     const wul1 = document.createElement('ul');
     wul1.className = 'toolkit';
-    const wli3 = document.createElement('li');
-    wli3.className = 'toolkit-list';
-    const wli3Text = document.createTextNode('Codekit');
-    wli3.appendChild(wli3Text);
-    wul1.appendChild(wli3);
-    const wli4 = document.createElement('li');
-    wli4.className = 'toolkit-list';
-    const wli4Text = document.createTextNode('GitHub');
-    wli4.appendChild(wli4Text);
-    wul1.appendChild(wli4);
-    const wli5 = document.createElement('li');
-    wli5.className = 'toolkit-list';
-    const wli5Text = document.createTextNode('JavaScript');
-    wli5.appendChild(wli5Text);
-    wul1.appendChild(wli5);
-    const wli6 = document.createElement('li');
-    wli6.className = 'toolkit-list';
-    const wli6Text = document.createTextNode('Bootstrap');
-    wli6.appendChild(wli6Text);
-    wul1.appendChild(wli6);
-    const wli7 = document.createElement('li');
-    wli7.className = 'toolkit-list';
-    const wli7Text = document.createTextNode('Terminal');
-    wli7.appendChild(wli7Text);
-    wul1.appendChild(wli7);
-    const wli8 = document.createElement('li');
-    wli8.className = 'toolkit-list';
-    const wli8Text = document.createTextNode('Codepen');
-    wli8.appendChild(wli8Text);
-    wul1.appendChild(wli8);
+    for (let k = 0; k < projects[buttonIndex].techstack.length; k += 1) {
+      const wli = document.createElement('li');
+      wli.className = 'toolkit-list';
+      const wliText = document.createTextNode(projects[buttonIndex].techstack[k]);
+      wli.appendChild(wliText);
+      wul1.appendChild(wli);
+    }
     wdiv2.appendChild(wul1);
     const wp1 = document.createElement('p');
     wp1.className = 'detail-description';
