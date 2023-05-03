@@ -120,21 +120,13 @@ workLinks.forEach((workLink) => {
     wdiv.appendChild(wh2);
     const wul = document.createElement('ul');
     wul.className = 'toolkit';
-    const wli = document.createElement('li');
-    wli.className = 'toolkit-list';
-    const wliText = document.createTextNode('Ruby on rails');
-    wli.appendChild(wliText);
-    wul.appendChild(wli);
-    const wli1 = document.createElement('li');
-    wli1.className = 'toolkit-list';
-    const wli1Text = document.createTextNode('css');
-    wli1.appendChild(wli1Text);
-    wul.appendChild(wli1);
-    const wli2 = document.createElement('li');
-    wli2.className = 'toolkit-list';
-    const wli2Text = document.createTextNode('JavaScript');
-    wli2.appendChild(wli2Text);
-    wul.appendChild(wli2);
+    for (let l = 0; l < projects[buttonIndex].techstack.length; l += 1) {
+      const wli = document.createElement('li');
+      wli.className = 'toolkit-list';
+      const wliText = document.createTextNode(projects[buttonIndex].techstack[l]);
+      wli.appendChild(wliText);
+      wul.appendChild(wli);
+    }
     wdiv.appendChild(wul);
     const wp = document.createElement('p');
     wp.className = 'detail-description';
