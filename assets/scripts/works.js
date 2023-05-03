@@ -4,7 +4,7 @@ const projects = [
     name: 'Conference page',
     img_desktop: './assets/images/nomads_desktop.png',
     img_mobile: './assets/images/nomads_mobile.png',
-    description: 'Capstone1 is a Conference page website built with basic HTML, CSS, and JavaScript.',
+    description: 'This is a style guided project where I personalized the content about a conference website.',
     liveLink: 'https://jorgegoco.github.io/Capstone1/',
     liveSource: 'https://github.com/jorgegoco/Capstone1',
     techstack: ['JavaScript', 'CSS3', 'HTML5'],
@@ -14,7 +14,7 @@ const projects = [
     name: 'Budget App',
     img_desktop: './assets/images/budget_mobile.png',
     img_mobile: './assets/images/budget_mobile.png',
-    description: 'The Budget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    description: 'The Budget App is a mobile web app that lets you manage your budget by categorizing and tracking your transactions.',
     liveLink: 'https://budget-app-xplx.onrender.com/',
     liveSource: 'https://github.com/jorgegoco/budget-app-ror',
     techstack: ['Ruby on rails', 'PostgreSQL'],
@@ -24,7 +24,7 @@ const projects = [
     name: "Today's To Do",
     img_desktop: './assets/images/todo_desktop.png',
     img_mobile: './assets/images/todo_mobile.png',
-    description: 'ToDoList is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+    description: 'To-Do-list is a project where you can manage your daily tasks in a very simple way. CRUD functionality and user-friendly.',
     liveLink: 'https://jorgegoco.github.io/ToDoList/',
     liveSource: 'https://github.com/jorgegoco/ToDoList',
     techstack: ['JavaScript', 'CSS3', 'HTML5', 'Webpack'],
@@ -54,7 +54,7 @@ const projects = [
     name: 'Weather App',
     img_desktop: './assets/images/weather_desktop2.png',
     img_mobile: './assets/images/weather_mobile.png',
-    description: '"react-weather-app" is an application that will allow users to check air quality index levels from the nine closest stations to a changeable origin location. Built with React and Redux.',
+    description: 'A Weather App that pulls from the OpenWeatherMap API to allow users to check air quality index levels from the nine closest weather stations from a chosen origin location.',
     liveLink: 'https://jorgegoco.github.io/react-weather-app/',
     liveSource: 'https://github.com/jorgegoco/react-weather-app',
     techstack: ['JavaScript', 'CSS3', 'HTML5', 'React JS'],
@@ -115,7 +115,7 @@ workLinks.forEach((workLink) => {
     wdiv.appendChild(wimg);
     const wh2 = document.createElement('h2');
     wh2.className = 'detail-title-mobile';
-    const wh2Text = document.createTextNode('Keeping track of hundreds of components');
+    const wh2Text = document.createTextNode(projects[buttonIndex].name);
     wh2.appendChild(wh2Text);
     wdiv.appendChild(wh2);
     const wul = document.createElement('ul');
@@ -175,7 +175,7 @@ workLinks.forEach((workLink) => {
     wdiv3.className = 'detail-header-desktop';
     const wh22 = document.createElement('h2');
     wh22.className = 'detail-title-desktop';
-    const wh22Text = document.createTextNode('Keeping track of hundreds of components');
+    const wh22Text = document.createTextNode(projects[buttonIndex].name);
     wh22.appendChild(wh22Text);
     wdiv3.appendChild(wh22);
     const wdiv4 = document.createElement('div');
