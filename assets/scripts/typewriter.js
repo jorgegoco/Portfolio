@@ -1,5 +1,5 @@
-const sentenceShort = '..with expertise in full-stack development using Ruby on Rails, JavaScript, React, and Redux. I collaborate with remote teams using GitHub, gitflow, and daily standups. I also mentor junior developers, improve code quality, and share motivation tips.';
-const sentenceLong = '..with expertise in full-stack development using Ruby on Rails, JavaScript, React, and Redux. I collaborate with remote teams using GitHub, gitflow, and daily standups. I also mentor junior developers, improve code quality, and share motivation tips. I am a lifelong learner and I am always looking for new challenges.';
+const sentenceShort = '..with expertise in full-stack development using Ruby on Rails, JavaScript, React, and Redux. I collaborate with remote teams using GitHub, Gitflow, and daily standups. I also mentor junior developers, improve code quality, and share motivation tips.';
+const sentenceLong = '..with expertise in full-stack development using Ruby on Rails, JavaScript, React, and Redux. I collaborate with remote teams using GitHub, Gitflow, and daily standups. I also mentor junior developers, improve code quality, and share motivation tips. I am a lifelong learner, and I am always looking for new challenges.';
 
 let i = 0;
 const speed = 40;
