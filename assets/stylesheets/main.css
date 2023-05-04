@@ -476,10 +476,13 @@ footer {
   }
 
   .desktop-menu {
-    padding-top: 26px;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     column-gap: 32px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
   }
 
   nav a {
