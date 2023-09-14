@@ -141,31 +141,31 @@ span {
 }
 
 .imageProject0 {
-  background-image: url("../images/nomads_mobile.png");
+  background-image: url("../images/littleShop_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .imageProject1 {
-  background-image: url("../images/budget_mobile.png");
+  background-image: url("../images/sellit_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .imageProject2 {
-  background-image: url("../images/todo_mobile.png");
+  background-image: url("../images/ticket_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .imageProject3 {
-  background-image: url("../images/math_mobile.png");
+  background-image: url("../images/budget_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .imageProject4 {
-  background-image: url("../images/leaderboard_mobile.png");
+  background-image: url("../images/nomads_mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -566,23 +566,23 @@ footer {
   }
 
   .imageProject0 {
-    background-image: url("../images/nomads_mobile.png");
+    background-image: url("../images/littleShop_mobile.png");
   }
 
   .imageProject1 {
-    background-image: url("../images/budget_mobile.png");
+    background-image: url("../images/sellit_mobile.png");
   }
 
   .imageProject2 {
-    background-image: url("../images/todo_mobile.png");
+    background-image: url("../images/ticket_mobile.png");
   }
 
   .imageProject3 {
-    background-image: url("../images/math_mobile.png");
+    background-image: url("../images/budget_mobile.png");
   }
 
   .imageProject4 {
-    background-image: url("../images/leaderboard_mobile.png");
+    background-image: url("../images/nomads_mobile.png");
   }
 
   .imageProject5 {
